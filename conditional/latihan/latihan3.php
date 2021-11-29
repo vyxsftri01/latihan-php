@@ -15,5 +15,3 @@ if ($ipk > 0 && $ipk <= 2) {
 }else {
     echo "sistem error";
 }
-
-?>
