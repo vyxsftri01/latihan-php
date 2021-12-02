@@ -1,0 +1,7 @@
+body {
+    font-family: "Avenir Next";
+    background-color: rgb(255, 241, 243);
+}
+.card-container {
+    width: 35rem;
+}
