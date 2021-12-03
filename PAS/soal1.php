@@ -32,12 +32,10 @@
                     <option value="Belum Vaksin">Belum Vaksin</option>
                 </select></td>
             </tr>
-            <tr>
-            <td></td>
-            <td></td>
-            <td><input type="submit" value="KIRIM" name="kirim"></td>
-            <td><button type="reset">Reset</button></td>
-        </tr>
+            <th>
+                 <button type="submit" name="kirim">Kirim</button>
+                 <button type="reset">Reset</button>
+            </th>
         </table>
     </form>
 </center>
@@ -62,8 +60,6 @@ if (isset($_POST['kirim'])) {
         echo "<br>";
         echo '<a href="https://www.pedulilindungi.id/*">Silahkan Daftar Vaksin</a>';
     }
-    
-
 }
 ?>
 

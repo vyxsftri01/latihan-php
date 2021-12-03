@@ -1,13 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="styles.css" rel="stylesheet">
-
-    <title>Vaksin</title>
+    <title>Penggajian</title>
   </head>
   <body>
       <fieldset>
@@ -46,6 +43,7 @@
                     <option value="">Jabatan</option>
                     <option value="Direktur">Direktur</option>
                     <option value="Manager">Manager</option>
+                    <option value="Sekretaris">Sekretaris</option>
                     <option value="Karyawan">Karyawan</option>
                     <option value="OB">OB</option>
                 </select></td>
@@ -61,6 +59,13 @@
                     <option value="S1">S1</option>
                     <option value="S1">S2</option>
                 </select></td>
+            </tr>
+            <tr>
+                <td>Status Pegawai</td>
+                <td>:</td>
+                <td><input type="radio" name="status" value="Tetap">Tetap
+                    <input type="radio" name="status" value="Kontrak">Kontrak
+                </td>
             </tr>
             <tr>
                 <td>Lembur</td>
@@ -81,4 +86,4 @@
 </fieldset>
     
   </body>
-</html>
+  </html>
