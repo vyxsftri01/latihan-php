@@ -376,6 +376,7 @@
             </table>
         </form>
         <center>
+            <form action="" method="post">
             <div class="cafe">
                 <select name="pilih">
                         <option selected> Pilih Menu </option>
@@ -391,6 +392,7 @@
                 <input type="submit" name="cafe" value="Kirim">
         </center>
         </div>
+        </form>
         <?php } elseif ($destinasi == '8') { ?>
         <h2 align="center">Goa Pindul</h2>
         <form action="" method="post">
