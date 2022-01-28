@@ -55,7 +55,8 @@
                     for ($i=1; $i<=$nama; $i++){
                        echo "<center>";
                        for ($d=1; $d<=$c; $d++) {
-                       echo "$d %nbsp";
+                       echo "$d &nbsp";
+
                        }
                        $c--;
                        echo "<br />";
